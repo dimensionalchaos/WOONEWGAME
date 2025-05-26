@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Linq;
+using UnityEngine.UI;
 public class Playerdetails : Combatdetails
 {
+    
+    
        public override int tag
     {
         get { return 0; }
@@ -12,6 +15,7 @@ public class Playerdetails : Combatdetails
 
     void Awake()
     {
+        eledebuffs = new Dictionary<string,(float,float)>();
        dotTracker = new Dottracker();
     }
     // Start is called before the first frame update
@@ -28,17 +32,25 @@ public class Playerdetails : Combatdetails
 
      public override void Attack(Attacktype attackType,GameObject target)
     {
-        Details targetDetails = target.GetComponent<Details>();
-        if(attackType.attackDebuffs.Contains("elementalaffliction"))
-        {   if(targetDetails.eledebuffs.ContainsKey(element))
+        Combatdetails targetDetails = target.GetComponent<Combatdetails>();
+        if (attackType.attackDebuffs.Contains("elementalaffliction"))
+        {
+            if (targetDetails.eledebuffs.ContainsKey(element))
             {
-                 Scenebattlemanager.multiplier =2f;
-                 targetDetails.eledebuffs[element] = (ele,baseDamage);
+                Scenebattlemanager.multiplier = 2f;
+                targetDetails.eledebuffs[element] = (ele, baseDamage);
+
             }
             else
+            {
+                targetDetails.eledebuffs.Add(element, (ele, baseDamage));
+                targetDetails.dotTracker.Updatedots(targetDetails.eledebuffs);
+                GameObject bar = targetDetails.afflictionsbar;
+                bar.transform.GetChild(targetDetails.barindex).gameObject.GetComponent<Image>().sprite = Scenebattlemanager.elespritedict[element];
+                bar.transform.GetChild(targetDetails.barindex).gameObject.SetActive(true);
+                targetDetails.barindex += 1;
+            }
             
-            targetDetails.eledebuffs.Add(element,(ele,baseDamage));
-            targetDetails.dotTracker.Updatedots(targetDetails.eledebuffs);
           
         
        

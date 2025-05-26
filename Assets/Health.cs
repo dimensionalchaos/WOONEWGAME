@@ -41,10 +41,11 @@ public class Health : MonoBehaviour
             }
             index++;
         }
-        // Remove items from battlePriority in reverse order
-        for (int i = toRemove.Count - 1; i >= 0; i--)
-        {
-            battleManager.battlePriority.RemoveAt(toRemove[i]);
+            // Remove items from battlePriority in reverse order
+            for (int i = toRemove.Count - 1; i >= 0; i--)
+            {
+                battleManager.battlePriority.RemoveAt(toRemove[i]);
+                battleManager.UpdateUI(Scenebattlemanager.UI.REMOVE, toRemove[i], 0, battleManager.orderPanel, null);
         }
 
         // Track indices to remove from secondturn
@@ -58,10 +59,11 @@ public class Health : MonoBehaviour
             }
             index++;
         }
-        // Remove items from secondturn in reverse order
-        for (int i = toRemove.Count - 1; i >= 0; i--)
-        {
-            battleManager.secondturn.RemoveAt(toRemove[i]);
+            // Remove items from secondturn in reverse order
+            for (int i = toRemove.Count - 1; i >= 0; i--)
+            {
+                battleManager.secondturn.RemoveAt(toRemove[i]);
+                battleManager.UpdateUI(Scenebattlemanager.UI.REMOVE, toRemove[i], 0, battleManager.secondturnorderPanel, null);
         }
 
         Destroy(healthbar);

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Combatdetails : MonoBehaviour
 {
+    public GameObject afflictionsbar;
+    public int barindex;
     public int teampriority = 0;
     public virtual int tag
     {

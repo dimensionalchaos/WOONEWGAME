@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: 43a83d9be0285abbcb8402714ea27fd9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 323
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3f78c7bf58c9ed98371bbb415f613b
+      internalID: 1520453176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 323
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89dc40f02925caca802edaf014d46ef
+      internalID: 293685689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 323
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fae27865f24d1b8cadf8c081bd74d85
+      internalID: -927279838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 323
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292e07adddd566c0af75810413b74af
+      internalID: -260655906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 214
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ad6dc2c3165b4c5b871eeee69a9f92
+      internalID: 1883154021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 214
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b20763b46924bcd796c5793e0aa32dd
+      internalID: 1624603648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 214
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b96ad65305985b218fae8cb4c11d3c7
+      internalID: -315560117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 214
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384f29fc9a20361cbd7b0fd864ec2b4
+      internalID: -1271584253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 103
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac371c8c484c23f5382b65bd5220577f
+      internalID: -1423681140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 103
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22069e43fd4963df093ea939c2fb1acc
+      internalID: 247529937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 103
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee3633bf34dfeaf1982b2eb768b2bf7
+      internalID: 1231618159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 103
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518117d78a57bb9fea3a53e1f415ea4f
+      internalID: 1964934528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_0: 1520453176
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_1: 293685689
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_10: 1231618159
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_11: 1964934528
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_2: -927279838
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_3: -260655906
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_4: 1883154021
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_5: 1624603648
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_6: -315560117
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_7: -1271584253
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_8: -1423681140
+      vecteezy_set-of-four-element-icons_50894756-removebg-preview 1_9: 247529937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

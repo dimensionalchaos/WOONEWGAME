@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Linq;
+
 public class Details : Combatdetails
 {
+    
+    [SerializeField]
+    
     int tag = 1;
      void Awake()
      {
@@ -22,8 +26,8 @@ public class Details : Combatdetails
     // Update is called once per frame
     void Update()
     {
-        
 
+        print("Count is "+eledebuffs.Count());
       
     }
     public void Callglobalenemyattack()
